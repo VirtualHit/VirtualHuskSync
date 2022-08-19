@@ -22,6 +22,10 @@ commands:
   inventory:
     usage: '/inventory <username> [version_uuid]'
     description: 'View & edit a player''s inventory'
+    aliases:
+      - invsee
   enderchest:
     usage: '/enderchest <username> [version_uuid]'
     description: 'View & edit a player''s Ender Chest'
+    aliases:
+      - endersee
