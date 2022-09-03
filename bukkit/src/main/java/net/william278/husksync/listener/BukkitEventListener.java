@@ -44,7 +44,7 @@ public class BukkitEventListener extends EventListener implements Listener {
         super.handlePlayerJoin(BukkitPlayer.adapt(event.getPlayer()));
     }
 
-    @EventHandler(priority = EventPriority.LOWEST)
+    @EventHandler(priority = EventPriority.HIGHEST)
     public void onPlayerQuit(@NotNull PlayerQuitEvent event) {
         super.handlePlayerQuit(BukkitPlayer.adapt(event.getPlayer()));
     }
